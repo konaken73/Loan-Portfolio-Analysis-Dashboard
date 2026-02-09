@@ -1,0 +1,1 @@
+cd etl ; touch extract.py transform.py load.py  pipeline.py ; cd ../sql/queries/ ; touch kpi_overview.sql risk_analysis.sql performance.sql segmentation.sql  ; cd .. ; touch schema.sql ; cd ../docs/ ; touch README.md data_dictionary.md kpi_definitions.md ; cd  ../scripts/ ; touch setup_database.py export_for_bi.py ; cd ../ ; touch requirements.txt      

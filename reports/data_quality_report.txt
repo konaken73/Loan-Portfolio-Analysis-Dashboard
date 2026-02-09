@@ -1,0 +1,23 @@
+RAPPORT DE QUALITÉ DES DONNÉES
+==================================================
+Date de génération: 2026-02-06 01:22:17
+Pipeline: LoanETLPipeline
+
+STATISTIQUES DE BASE:
+------------------------------
+Total Rows: 2260701
+Total Columns: 50
+Missing Values: 29390780
+Duplicate Rows: 0
+
+STATUT DE VALIDATION: PASS
+
+PROBLÈMES IDENTIFIÉS:
+------------------------------
+• Trop de valeurs manquantes: 29390780
+• 1667 revenus annuels négatifs ou nuls
+
+RECOMMANDATIONS:
+------------------------------
+✓ Les données sont de bonne qualité
+✓ Le pipeline peut continuer normalement

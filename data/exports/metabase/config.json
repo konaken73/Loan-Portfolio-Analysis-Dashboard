@@ -1,0 +1,15 @@
+{
+  "name": "Loan Portfolio Dashboard",
+  "description": "Dashboard d'analyse du portefeuille de prêts",
+  "database": "data/loans.db",
+  "questions": [
+    {
+      "name": "Portfolio Overview",
+      "query": "SELECT * FROM dashboard_kpis"
+    },
+    {
+      "name": "Default Analysis",
+      "query": "SELECT * FROM loan_default_analysis"
+    }
+  ]
+}

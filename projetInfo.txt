@@ -1,0 +1,5 @@
+Projet : Analyse de Portefeuille de Prêts & Dashboard
+Vue d'ensemble du projet
+Ce projet simule la surveillance de la santé d'un portefeuille de microcrédits en utilisant des données publiques de Lending Club. L'objectif est de créer un pipeline ETL complet, d'analyser les données avec SQL, et de visualiser les résultats dans un dashboard interactif.
+
+

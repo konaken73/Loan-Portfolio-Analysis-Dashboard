@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<datasource formatted-name='Loan Portfolio Analysis' inline='true' version='18.1'>
+  <connection class='sqlite'>
+    <named-connections>
+      <named-connection name='LoanDB' caption='Loan Database'>
+        <connection>
+          <dbname>data/loans.db</dbname>
+        </connection>
+      </named-connection>
+    </named-connections>
+  </connection>
+  <metadata-records>
+    <metadata-record class='column'>
+      <remote-name>loan_amnt</remote-name>
+      <remote-type>real</remote-type>
+      <local-name>[Loan Amount]</local-name>
+      <parent-name>[loans]</parent-name>
+    </metadata-record>
+    <!-- Additional metadata records would go here -->
+  </metadata-records>
+</datasource>

@@ -1,0 +1,37 @@
+loan-portfolio-analysis/
+│
+├── data/
+│   ├── raw/                    # Données brutes téléchargées
+│   ├── processed/              # Données nettoyées
+│   └── outputs/                # Exports pour le dashboard
+│
+├── etl/
+│   ├── extract.py              # Téléchargement des données
+│   ├── transform.py            # Nettoyage et transformation
+│   ├── load.py                 # Chargement dans la base de données
+│   └── pipeline.py             # Orchestration du pipeline ETL
+│
+├── sql/
+│   ├── queries/                # Requêtes SQL pour les KPIs
+│   │   ├── kpi_overview.sql
+│   │   ├── risk_analysis.sql
+│   │   ├── performance.sql
+│   │   └── segmentation.sql
+│   └── schema.sql              # Schéma de la base de données
+│
+├── dashboard/
+│   ├── looker_studio/          # Configuration du dashboard
+│   │   ├── data_sources/       # Sources de données
+│   │   └── dashboard_screenshots/
+│   └── metabase/               # Alternative Metabase
+│
+├── docs/
+│   ├── README.md               # Documentation principale
+│   ├── data_dictionary.md      # Dictionnaire des données
+│   └── kpi_definitions.md      # Définitions des KPIs
+│
+├── scripts/
+│   ├── setup_database.py       # Initialisation de la base
+│   └── export_for_bi.py        # Export pour outils BI
+│
+└── requirements.txt            # Dépendances Python

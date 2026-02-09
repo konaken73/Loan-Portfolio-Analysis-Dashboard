@@ -1,0 +1,9 @@
+KPI,Valeur,Description,Unité
+Portfolio Total,500000.0,Nombre total de prêts dans le portefeuille,unités
+Montant Total,7694475300.0,Montant total du portefeuille (USD),USD
+Taux de Défaut,0.0,Pourcentage de prêts en défaut,%
+Taux Intérêt Moyen,12.57,Taux d'intérêt moyen sur tous les prêts,%
+Revenu Moyen,77186.0,Revenu annuel moyen des emprunteurs (USD),USD
+Taux de Remboursement,0.0,Pourcentage de prêts entièrement remboursés,%
+Ratio Dette/Revenu Moyen,19.24,Ratio dette/revenu moyen des emprunteurs,
+Durée Moyenne,44.0,Durée moyenne des prêts (mois),

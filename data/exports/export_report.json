@@ -1,0 +1,54 @@
+{
+  "export_date": "2026-02-06T13:06:23.025867",
+  "database": "data/loans.db",
+  "total_exports": 8,
+  "exports_by_format": {
+    "looker_studio": 3,
+    "power_bi": 1,
+    "tableau": 1,
+    "metabase": 1,
+    "json": 2
+  },
+  "files": [
+    {
+      "path": "data/exports/looker_studio/dashboard_kpis.csv",
+      "format": "looker_studio",
+      "size": 570
+    },
+    {
+      "path": "data/exports/looker_studio/performance_par_grade.csv",
+      "format": "looker_studio",
+      "size": 362
+    },
+    {
+      "path": "data/exports/looker_studio/segmentation_géographique.csv",
+      "format": "looker_studio",
+      "size": 2070
+    },
+    {
+      "path": "data/exports/power_bi/dim_geography.csv",
+      "format": "power_bi",
+      "size": 1005
+    },
+    {
+      "path": "data/exports/tableau/geographic_data.csv",
+      "format": "tableau",
+      "size": 1649
+    },
+    {
+      "path": "data/exports/metabase/dashboard_kpis.csv",
+      "format": "metabase",
+      "size": 622
+    },
+    {
+      "path": "data/exports/json/kpis.json",
+      "format": "json",
+      "size": 1274
+    },
+    {
+      "path": "data/exports/json/metadata.json",
+      "format": "json",
+      "size": 381
+    }
+  ]
+}

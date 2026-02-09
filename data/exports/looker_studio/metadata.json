@@ -1,0 +1,51 @@
+{
+  "data_sources": [
+    {
+      "name": "Loan Portfolio Analysis",
+      "description": "Analyse du portefeuille de prêts Lending Club",
+      "tables": [
+        {
+          "name": "dashboard_kpis",
+          "description": "Indicateurs clés de performance",
+          "fields": [
+            {
+              "name": "metric",
+              "type": "",
+              "nullable": true
+            },
+            {
+              "name": "value",
+              "type": "",
+              "nullable": true
+            },
+            {
+              "name": "description",
+              "type": "",
+              "nullable": true
+            },
+            {
+              "name": "value_type",
+              "type": "",
+              "nullable": true
+            }
+          ]
+        },
+        {
+          "name": "performance_par_grade",
+          "description": "Performance par grade de crédit",
+          "fields": [
+            {
+              "name": "Grade",
+              "type": "object"
+            },
+            {
+              "name": "Nombre_Prêts",
+              "type": "int64"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "export_date": "2026-02-06T13:06:04.472721"
+}

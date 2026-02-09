@@ -1,0 +1,6 @@
+Format,File Count,Example Files
+looker_studio,3,data/exports/looker_studio/dashboard_kpis.csv; data/exports/looker_studio/performance_par_grade.csv; data/exports/looker_studio/segmentation_géographique.csv
+power_bi,1,data/exports/power_bi/dim_geography.csv
+tableau,1,data/exports/tableau/geographic_data.csv
+metabase,1,data/exports/metabase/dashboard_kpis.csv
+json,2,data/exports/json/kpis.json; data/exports/json/metadata.json

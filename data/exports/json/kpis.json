@@ -1,0 +1,50 @@
+[
+  {
+    "metric":"Portfolio Total",
+    "value":500000.0,
+    "description":"Nombre total de pr\u00eats dans le portefeuille",
+    "value_type":"count"
+  },
+  {
+    "metric":"Montant Total",
+    "value":7694475300.0,
+    "description":"Montant total du portefeuille (USD)",
+    "value_type":"currency"
+  },
+  {
+    "metric":"Taux de D\u00e9faut",
+    "value":0.0,
+    "description":"Pourcentage de pr\u00eats en d\u00e9faut",
+    "value_type":"percentage"
+  },
+  {
+    "metric":"Taux Int\u00e9r\u00eat Moyen",
+    "value":12.57,
+    "description":"Taux d'int\u00e9r\u00eat moyen sur tous les pr\u00eats",
+    "value_type":"percentage"
+  },
+  {
+    "metric":"Revenu Moyen",
+    "value":77186.0,
+    "description":"Revenu annuel moyen des emprunteurs (USD)",
+    "value_type":"currency"
+  },
+  {
+    "metric":"Taux de Remboursement",
+    "value":0.0,
+    "description":"Pourcentage de pr\u00eats enti\u00e8rement rembours\u00e9s",
+    "value_type":"percentage"
+  },
+  {
+    "metric":"Ratio Dette\/Revenu Moyen",
+    "value":19.24,
+    "description":"Ratio dette\/revenu moyen des emprunteurs",
+    "value_type":"ratio"
+  },
+  {
+    "metric":"Dur\u00e9e Moyenne",
+    "value":44.0,
+    "description":"Dur\u00e9e moyenne des pr\u00eats (mois)",
+    "value_type":"months"
+  }
+]

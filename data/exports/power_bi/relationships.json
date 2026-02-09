@@ -1,0 +1,22 @@
+{
+  "relationships": [
+    {
+      "fromTable": "fact_loans",
+      "fromColumn": "IssueDate",
+      "toTable": "dim_time",
+      "toColumn": "Date"
+    },
+    {
+      "fromTable": "fact_loans",
+      "fromColumn": "State",
+      "toTable": "dim_geography",
+      "toColumn": "StateCode"
+    },
+    {
+      "fromTable": "fact_loans",
+      "fromColumn": "Grade",
+      "toTable": "dim_product",
+      "toColumn": "Grade"
+    }
+  ]
+}

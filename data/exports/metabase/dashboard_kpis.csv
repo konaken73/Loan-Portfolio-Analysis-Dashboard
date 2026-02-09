@@ -1,0 +1,9 @@
+metric,value,description,value_type
+Portfolio Total,500000.0,Nombre total de prêts dans le portefeuille,count
+Montant Total,7694475300.0,Montant total du portefeuille (USD),currency
+Taux de Défaut,0.0,Pourcentage de prêts en défaut,percentage
+Taux Intérêt Moyen,12.57,Taux d'intérêt moyen sur tous les prêts,percentage
+Revenu Moyen,77186.0,Revenu annuel moyen des emprunteurs (USD),currency
+Taux de Remboursement,0.0,Pourcentage de prêts entièrement remboursés,percentage
+Ratio Dette/Revenu Moyen,19.24,Ratio dette/revenu moyen des emprunteurs,ratio
+Durée Moyenne,44.0,Durée moyenne des prêts (mois),months
