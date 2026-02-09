@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📊 Projet d'Analyse de Portefeuille de Prêts
 
 ## 🎯 Objectif du Projet
@@ -60,3 +61,7 @@ loan-portfolio-analysis/
 ```bash
 git clone https://github.com/votre-username/loan-portfolio-analysis.git
 cd loan-portfolio-analysis
+=======
+# Loan-Portfolio-Analysis-Dashboard
+# Loan-Portfolio-Analysis-Dashboard
+>>>>>>> 2a307f98b950d11cd66efe8f0d8b1fe2b696e248
